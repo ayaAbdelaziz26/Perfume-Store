@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+    height:100vh;
+    margin: 0;
+    background-color: #9a6833;
+    overflow-x: hidden;
+}
+nav{
+    background-color: black;
+    display: flex;
+    height: 78px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+    border: 2px solid #9a6833;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom-color:#9a6833;
+}
+
+nav span{
+    color:#9a6833;
+    font-size: 28px;
+    letter-spacing: 7px;
+    margin-top: 14px;
+}
+
+nav img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.row1,.row2{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width: 100%;
+}
+
+
+.row{
+    height: 450px;
+    width: 23%;
+    background-color: black;
+    margin-top: 7%;
+    border-radius: 5px;
+}
+
+
+.row img{
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+span{
+    display: block;
+    padding: 6px;
+    text-align: center;
+    color: #fff;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.price,.brand,.gender{
+    font-family: sans-serif;
+}
+
+.price{
+    color: #57340e;
+    font-size: 20px;
+    font-family: 'Courgette';
+    font-weight: bold;
+}
+
+.row button{
+    position: relative;
+    left: 32%;
+    top: -55%;
+    background-color: #57340e;
+    min-width: 130px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 19px;
+    font-family: serif;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    color:#fff;
+}
+
+
+footer{
+    width: 100%;
+    height: 85px;
+    background-color: black;
+    margin-top: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+footer span{
+    color:#9a6833;
+    font-size: 16px;
+    letter-spacing: 7px;
+    margin-left: 1%;
+}
+
+footer img{
+    height: 25px;
+    width: 25px;
+    margin-left: 5%;
+    margin-top: -0.5%;
+}
+
+.copy{
+    display: block;
+    position: relative;
+    max-width: 130px;
+    top: 25%;
+    left: -10%;
+    color: #fff;
+}
+
+ a{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    padding-right: 40px;
+    left: 54%;
+}
